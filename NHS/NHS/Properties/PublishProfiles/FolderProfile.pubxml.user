@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\AnshumanPandey\Dropbox\NHS\NHS Forms\NHS Forms\NHS\NHS\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/09/2013 11:59:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>10/09/2013 11:59:20</publishTime>
+    </File>
+    <File Include="bin/css/images/CORS LOGO-01.png">
+      <publishTime>01/02/2019 15:53:11</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/06/2018 06:33:48</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>07/06/2018 06:33:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 10:35:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 07:18:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 04:14:54</publishTime>
+    </File>
+    <File Include="bin/NHS.Common.dll">
+      <publishTime>02/03/2019 17:14:09</publishTime>
+    </File>
+    <File Include="bin/NHS.Common.pdb">
+      <publishTime>02/03/2019 17:14:09</publishTime>
+    </File>
+    <File Include="bin/NHS.Data.dll">
+      <publishTime>02/03/2019 17:14:09</publishTime>
+    </File>
+    <File Include="bin/NHS.Data.pdb">
+      <publishTime>02/03/2019 17:14:09</publishTime>
+    </File>
+    <File Include="bin/NHS.dll">
+      <publishTime>02/03/2019 18:38:52</publishTime>
+    </File>
+    <File Include="bin/NHS.pdb">
+      <publishTime>02/03/2019 18:38:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 09:08:22</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 05:31:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/02/2018 06:50:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/02/2018 06:46:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/02/2014 09:56:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/02/2018 06:46:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/02/2018 06:50:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/02/2018 06:50:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/02/2018 06:50:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 08:27:34</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>12/20/2018 15:20:16</publishTime>
+    </File>
+    <File Include="css/datatables.min.css">
+      <publishTime>01/18/2019 12:11:27</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="css/images/CORS LOGO-01.png">
+      <publishTime>01/02/2019 15:53:11</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_444444_256x240.png">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="css/jquery-ui.min.css">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="css/responsive.bootstrap.min.css">
+      <publishTime>01/18/2019 12:17:47</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/20/2018 15:01:26</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>12/20/2018 15:05:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>12/20/2018 15:05:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>12/20/2018 15:05:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>12/20/2018 15:05:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>12/20/2018 15:05:23</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>12/20/2018 15:05:23</publishTime>
+    </File>
+    <File Include="fonts/zerowidthspaces.eot">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="fonts/zerowidthspaces.otf">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="fonts/zerowidthspaces.svg">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="fonts/zerowidthspaces.ttf">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="fonts/zerowidthspaces.woff">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/20/2018 15:01:26</publishTime>
+    </File>
+    <File Include="images/amber.png">
+      <publishTime>01/02/2019 10:18:24</publishTime>
+    </File>
+    <File Include="images/arrow img.png">
+      <publishTime>12/28/2018 06:20:03</publishTime>
+    </File>
+    <File Include="images/arrow.png">
+      <publishTime>12/27/2018 15:22:06</publishTime>
+    </File>
+    <File Include="images/back-158491_640.png">
+      <publishTime>12/28/2018 10:44:31</publishTime>
+    </File>
+    <File Include="images/BackArrowimages.png">
+      <publishTime>12/28/2018 11:07:01</publishTime>
+    </File>
+    <File Include="images/ButtonImg.png">
+      <publishTime>12/28/2018 11:00:34</publishTime>
+    </File>
+    <File Include="images/CORS LOGO-01.png">
+      <publishTime>02/03/2019 17:22:13</publishTime>
+    </File>
+    <File Include="images/CORSImg.PNG">
+      <publishTime>12/27/2018 15:28:39</publishTime>
+    </File>
+    <File Include="images/CORSImg1.PNG">
+      <publishTime>12/27/2018 15:28:39</publishTime>
+    </File>
+    <File Include="images/CORSimg2.PNG">
+      <publishTime>12/27/2018 15:28:39</publishTime>
+    </File>
+    <File Include="images/CorsImg3.PNG">
+      <publishTime>12/27/2018 15:28:39</publishTime>
+    </File>
+    <File Include="images/CORSImg4.PNG">
+      <publishTime>12/27/2018 15:28:39</publishTime>
+    </File>
+    <File Include="images/Delete.png">
+      <publishTime>01/11/2019 11:47:15</publishTime>
+    </File>
+    <File Include="images/edit-icon.png">
+      <publishTime>01/11/2019 11:47:07</publishTime>
+    </File>
+    <File Include="images/FRedCircle.png">
+      <publishTime>12/27/2018 14:53:47</publishTime>
+    </File>
+    <File Include="images/GeryImg.png">
+      <publishTime>12/27/2018 14:53:47</publishTime>
+    </File>
+    <File Include="images/GreenCircle.png">
+      <publishTime>12/27/2018 14:53:47</publishTime>
+    </File>
+    <File Include="images/icon-noScript.gif">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="images/IndexImageNHS.jpeg">
+      <publishTime>01/07/2019 06:23:01</publishTime>
+    </File>
+    <File Include="images/madical-img.png">
+      <publishTime>12/25/2018 08:52:03</publishTime>
+    </File>
+    <File Include="images/NHS-Logo.png">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="images/preloader.gif">
+      <publishTime>12/20/2018 15:05:24</publishTime>
+    </File>
+    <File Include="images/RedC.png">
+      <publishTime>12/27/2018 14:55:53</publishTime>
+    </File>
+    <File Include="images/user.png">
+      <publishTime>12/27/2018 15:26:25</publishTime>
+    </File>
+    <File Include="Models/NHSDb.edmx.diagram">
+      <publishTime>01/17/2019 19:15:26</publishTime>
+    </File>
+    <File Include="Models/NHSDbmsModel.edmx.diagram">
+      <publishTime>01/24/2019 07:24:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/20/2018 15:01:41</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/20/2018 15:01:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>12/20/2018 15:01:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>12/20/2018 15:01:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>12/20/2018 15:01:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>12/20/2018 15:01:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>12/20/2018 15:01:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>12/20/2018 15:01:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/20/2018 15:01:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/20/2018 15:01:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/20/2018 15:01:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/20/2018 15:01:50</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap.min.js">
+      <publishTime>12/20/2018 15:21:06</publishTime>
+    </File>
+    <File Include="Scripts/js/custom.js">
+      <publishTime>12/20/2018 15:07:07</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery-1.12.4.min.js">
+      <publishTime>12/20/2018 15:07:07</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery-ui.min.js">
+      <publishTime>12/20/2018 15:07:07</publishTime>
+    </File>
+    <File Include="Scripts/js/modernizr-2.8.3.min.js">
+      <publishTime>12/20/2018 15:07:07</publishTime>
+    </File>
+    <File Include="Scripts/js/respond-1.4.2.min.js">
+      <publishTime>12/20/2018 15:07:07</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>12/20/2018 15:01:48</publishTime>
+    </File>
+    <File Include="Views/DataManagement/DataManagementDetails.cshtml">
+      <publishTime>01/02/2019 08:17:45</publishTime>
+    </File>
+    <File Include="Views/Home/CORSPatient.cshtml">
+      <publishTime>01/17/2019 18:37:01</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/16/2019 08:38:22</publishTime>
+    </File>
+    <File Include="Views/Home/MedicalExaminerDashboard.cshtml">
+      <publishTime>01/02/2019 09:59:31</publishTime>
+    </File>
+    <File Include="Views/Home/MedicalExaminerDecision.cshtml">
+      <publishTime>01/30/2019 17:40:06</publishTime>
+    </File>
+    <File Include="Views/Home/MedicalExaminerReview.cshtml">
+      <publishTime>01/30/2019 15:33:43</publishTime>
+    </File>
+    <File Include="Views/Home/MortalityReview.cshtml">
+      <publishTime>02/03/2019 17:48:52</publishTime>
+    </File>
+    <File Include="Views/Home/NotAuthorized.cshtml">
+      <publishTime>01/02/2019 11:32:35</publishTime>
+    </File>
+    <File Include="Views/Home/OtherReferrals.cshtml">
+      <publishTime>01/30/2019 15:30:22</publishTime>
+    </File>
+    <File Include="Views/Home/PatientDetails.cshtml">
+      <publishTime>01/30/2019 15:17:48</publishTime>
+    </File>
+    <File Include="Views/Home/PatientHistory.cshtml">
+      <publishTime>01/22/2019 06:33:57</publishTime>
+    </File>
+    <File Include="Views/Home/PositiveFeedback.cshtml">
+      <publishTime>01/30/2019 15:24:25</publishTime>
+    </File>
+    <File Include="Views/Home/SJRAssessmentTriage.cshtml">
+      <publishTime>01/30/2019 15:29:43</publishTime>
+    </File>
+    <File Include="Views/Home/SJROutcome.cshtml">
+      <publishTime>01/02/2019 00:26:25</publishTime>
+    </File>
+    <File Include="Views/Home/Stage2SJRformFirstStep.cshtml">
+      <publishTime>01/02/2019 00:53:22</publishTime>
+    </File>
+    <File Include="Views/Home/Stage2SJRFormSecondStep.cshtml">
+      <publishTime>01/02/2019 00:54:02</publishTime>
+    </File>
+    <File Include="Views/Home/Stage3SJRFormFirstStep.cshtml">
+      <publishTime>01/02/2019 00:54:35</publishTime>
+    </File>
+    <File Include="Views/Home/Stage3SJRFormSecondStep.cshtml">
+      <publishTime>01/02/2019 00:42:47</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>12/20/2018 15:01:26</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>02/03/2019 17:21:34</publishTime>
+    </File>
+    <File Include="Views/UserManagemet/UserDetails.cshtml">
+      <publishTime>01/13/2019 07:42:51</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/20/2018 15:01:26</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>12/20/2018 15:01:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/03/2019 18:38:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

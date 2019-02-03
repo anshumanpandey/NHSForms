@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="nhsforms" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\AnshumanPandey\\Dropbox\\NHS\\NHS\ Forms\\NHS\ Forms\\NHS\\NHS\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\AnshumanPandey\\Dropbox\\NHS\\NHS\ Forms\\NHS\ Forms\\NHS\\NHS\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="NHS.Models.NHSEntities-Web.config Connection String" description="" value="NHS.Models.NHSEntities_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\AnshumanPandey\\Dropbox\\NHS\\NHS\ Forms\\NHS\ Forms\\NHS\\NHS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NHS.Models.NHSEntities']/@connectionString" />
+  </parameter>
+  <parameter name="NHSConStr-Web.config Connection String" description="NHSConStr Connection String used in web.config by the application to access the database." value="Server=tcp:compareagents.database.windows.net,1433;Initial Catalog=NHSForms;Persist Security Info=False;User ID=gvtech;Password=gv@tech12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30; " tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\AnshumanPandey\\Dropbox\\NHS\\NHS\ Forms\\NHS\ Forms\\NHS\\NHS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NHSConStr']/@connectionString" />
+  </parameter>
+</parameters>
